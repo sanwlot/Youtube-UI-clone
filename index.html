@@ -1,0 +1,282 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Youtube</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,500;1,700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles/general.css">
+  <link rel="stylesheet" href="styles/header.css">
+  <link rel="stylesheet" href="styles/sidebar.css">
+  <link rel="stylesheet" href="styles/video.css">
+</head>
+
+<body>
+  <div class="header">
+    <div class="left-section">
+      <img src="icons/hamburger-menu.svg" alt="hamburger menu logo" class="hamburger-menu">
+      <img src="icons/youtube-logo.svg" alt="youtube logo" class="youtube-logo">
+    </div>
+    <div class="middle-section">
+      <input type="text" class="search-bar" placeholder="Search">
+      <button  class="search-button">
+        <img class="search-icon" src="icons/search.svg" alt="search button">
+        <div class="tooltip">Search</div>
+      </button>
+      <button class="voice-search-button">
+        <img class="voice-search-icon" src="icons/voice-search-icon.svg" alt="voice search button">
+        <div class="tooltip">Search with your voice</div>
+      </button>
+    </div>
+    <div class="right-section">
+      <div class="upload-icon-container">
+        <img class="upload-icon" src="icons/upload.svg" alt="upload icon">
+        <div class="tooltip">Create</div>
+      </div>
+      <div class="youtube-apps-icon-container">
+        <img class="youtube-apps-icon" src="icons/youtube-apps.svg" alt="youtube apps icon">
+        <div class="tooltip">YouTube Apps</div>
+
+      </div>
+      <div class="notifications-icon-container">
+        <img class="notifications-icon" src="icons/notifications.svg" alt="notifications icon">
+        <div class="notification-count">3</div>
+        <div class="tooltip">notification</div>
+      </div>
+      <img class="profile-picture-icon" src="channel pictures/ajaychannel.jpg" alt="profile picture">
+    </div>
+  </div>
+
+  <div class="sidebar">
+    <div class="sidebar-link">
+      <div>
+        <img class="sidebar-icon" src="icons/home.svg">
+      </div>
+      <div class="sidebar-link-name">Home</div>
+      <div class="sidebar-tooltip">Home</div>
+    </div>
+    <div class="sidebar-link">
+      <div>
+        <img class="sidebar-icon" src="icons/explore.svg">
+      </div>
+      <div class="sidebar-link-name">Explore</div>
+      <div class="sidebar-tooltip">Explore</div>
+    </div>
+    <div class="sidebar-link">
+      <div>
+        <img class="sidebar-icon" src="icons/subscriptions.svg">
+      </div>
+      <div class="sidebar-link-name">Subscriptions</div>
+      <div class="sidebar-tooltip">Subscriptions</div>
+    </div>
+    <div class="sidebar-link">
+      <div>
+        <img class="sidebar-icon" src="icons/originals.svg">
+      </div>
+      <div class="sidebar-link-name">Originals</div>
+      <div class="sidebar-tooltip">Originals</div>
+    </div>
+    <div class="sidebar-link">
+      <div>
+        <img class="sidebar-icon" src="icons/youtube-music.svg">
+      </div>
+      <div class="sidebar-link-name">YouTube Music</div>
+      <div class="sidebar-tooltip">YouTube Music</div>
+    </div>
+    <div class="sidebar-link">
+      <div>
+        <img class="sidebar-icon" src="icons/library.svg">
+      </div>
+      <div class="sidebar-link-name">Library</div>
+      <div class="sidebar-tooltip">Library</div>
+
+    </div>
+  </div>
+
+  <div class="video-grid">
+    <div class="video-preview">
+      <div class="thumbnail-row">
+        <a href="https://youtu.be/-qEla3eow3c?feature=shared">
+          <img src="thumbnails/thumbnail-1.jpg" class="thumbnail">
+        </a>
+        <div class="video-duration">14:12</div>
+      </div>
+      <div class="video-info-grid" >
+        <div class="channel-picture">
+          <div>
+            <a href="#" class="profile-pic-link">
+              <img class="profile-picture" src="channel pictures/pro3.jpg">
+            </a>
+          </div>
+          <div class="channel-info-box-on-hover">
+            <div>
+              <img class="profile-picture large-profile-pic" src="channel pictures/pro3.jpg">
+            </div>
+            <div class="channel-info-box-on-hover-info-container">
+              <div>Death Raider</div>
+              <div>12M Subscribers</div>
+            </div>
+          </div>
+        </div>
+        <div class="video-info">
+          <p class="video-title"><a href="https://youtu.be/-qEla3eow3c?feature=shared">100 Best Metal Songs of all time</a></p>
+          <p class="video-author">Death Raider</p>
+          <p class="video-stats">12M views 6 months ago</p>
+        </div>
+      </div>
+    </div>
+  
+    <div class="video-preview">
+      <div class="thumbnail-row">
+        <a href="https://youtu.be/3NycM9lYdRI?feature=shared">
+          <img src="thumbnails/thumbnail-2.jpg" class="thumbnail">
+        </a>
+        <div class="video-duration">55:02</div>
+      </div>
+      <div class="video-info-grid" >
+        <div class="channel-picture">
+          <a href="#">
+            <img class="profile-picture" src="channel pictures/pro2.jpg">
+          </a>
+          <div class="channel-info-box-on-hover">
+            <div>
+              <img class="profile-picture large-profile-pic" src="channel pictures/pro2.jpg">
+            </div>
+            <div class="channel-info-box-on-hover-info-container">
+              <div>Peace Piano</div>
+              <div>342M Subscribers</div>
+            </div>
+          </div>
+        </div>
+        <div class="video-info">
+          <p class="video-title"><a href="https://youtu.be/3NycM9lYdRI?feature=shared">Soothing & calming Piano music</a></p>
+          <p class="video-author">Peace Piano</p>
+          <p class="video-stats">1M views 2 years ago</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="video-preview">
+      <div class="thumbnail-row">
+        <a href="https://youtu.be/80lKLqLm16I?feature=shared">
+          <img src="thumbnails/thumbnail-3.jpg" class="thumbnail">
+        </a>
+        <div class="video-duration">40:07</div>
+      </div>
+      <div class="video-info-grid" >
+        <div class="channel-picture">
+          <a href="#">
+            <img class="profile-picture" src="channel pictures/pro1.jpg">
+          </a>
+          <div class="channel-info-box-on-hover">
+            <div>
+              <img class="profile-picture large-profile-pic" src="channel pictures/pro1.jpg">
+            </div>
+            <div class="channel-info-box-on-hover-info-container">
+              <div>Dark void</div>
+              <div>1M Subscribers</div>
+            </div>
+          </div>
+        </div>
+        <div class="video-info">
+          <p class="video-title"><a href="https://youtu.be/80lKLqLm16I?feature=shared">Metal music to listen before you die!</a></p>
+          <p class="video-author">Dark void</p>
+          <p class="video-stats">32k views 2 months ago</p>
+        </div>
+      </div>
+    </div>
+  
+    <div class="video-preview">
+      <div class="thumbnail-row">
+        <a href="https://youtu.be/uD4izuDMUQA?feature=shared">
+          <img src="thumbnails/thumbnail-4.jpg" class="thumbnail">
+        </a>
+        <div class="video-duration">30:32</div>
+      </div>
+      <div class="video-info-grid" >
+        <div class="channel-picture">
+          <a href="#">
+            <img class="profile-picture" src="channel pictures/pro8.jpg">
+          </a>
+          <div class="channel-info-box-on-hover">
+            <div>
+              <img class="profile-picture large-profile-pic" src="channel pictures/pro8.jpg">
+            </div>
+            <div class="channel-info-box-on-hover-info-container">
+              <div>Melody Sheep</div>
+              <div>777M Subscribers</div>
+            </div>
+          </div>
+        </div>
+        <div class="video-info">
+          <p class="video-title"><a href="https://youtu.be/uD4izuDMUQA?feature=shared">TIMELAPSE OF THE FUTURE: A Journey to the End of Time (4K)</a></p>
+          <p class="video-author">Melody Sheep</p>
+          <p class="video-stats">94M views 4 years ago</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="video-preview">
+      <div class="thumbnail-row">
+        <a href="https://youtu.be/psuRGfAaju4?feature=shared">
+          <img src="thumbnails/thumbnail-5.jpg" class="thumbnail">
+        </a>
+        <div class="video-duration">4:59</div>
+      </div>
+      <div class="video-info-grid" >
+        <div class="channel-picture">
+          <a href="#">
+            <img class="profile-picture" src="channel pictures/pro6.jpg">
+          </a>
+          <div class="channel-info-box-on-hover">
+            <div>
+              <img class="profile-picture large-profile-pic" src="channel pictures/pro6.jpg">
+            </div>
+            <div class="channel-info-box-on-hover-info-container">
+              <div>Owl City</div>
+              <div>9M Subscribers</div>
+            </div>
+          </div>
+        </div>
+        <div class="video-info">
+          <p class="video-title"><a href="https://youtu.be/psuRGfAaju4?feature=shared">Owl City: Fireflies</a></p>
+          <p class="video-author">Owl City</p>
+          <p class="video-stats">6.5M views 10 months ago</p>
+        </div>
+      </div>
+    </div>
+  
+    <div class="video-preview">
+      <div class="thumbnail-row">
+        <a href="https://youtu.be/V3ADK6gsDGg?feature=shared">
+          <img src="thumbnails/thumbnail-6.webp" class="thumbnail">
+        </a>
+        <div class="video-duration">6:12</div>
+      </div>
+      <div class="video-info-grid" >
+        <div class="channel-picture">
+          <a href="#">
+            <img class="profile-picture" src="channel pictures/pro7.jpg">
+          </a>
+          <div class="channel-info-box-on-hover">
+            <div>
+              <img class="profile-picture large-profile-pic" src="channel pictures/pro7.jpg">
+            </div>
+            <div class="channel-info-box-on-hover-info-container">
+              <div>Slipknotr</div>
+              <div>88M Subscribers</div>
+            </div>
+          </div>
+        </div>
+        <div class="video-info">
+          <p class="video-title"><a href="https://youtu.be/V3ADK6gsDGg?feature=shared">Slipknot - Solway Firth [OFFICIAL VIDEO]</a></p>
+          <p class="video-author">Slipknot</p>
+          <p class="video-stats">79M views 4 years ago</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</body>
+</html>
